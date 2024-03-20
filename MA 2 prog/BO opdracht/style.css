@@ -1,0 +1,44 @@
+*{
+    padding: 2;
+    margin: 2;
+    box-sizing:  border-box;
+}
+body {
+    background-image: url('museum.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  }
+
+h1 {
+    color: aliceblue;
+    text-align:center;
+    margin: 120;
+    font-size: 350%; 
+
+  }
+p,
+.p2,
+.p3 {
+    color: aliceblue;
+    padding: 10px;
+    margin-left: 150px;
+    text-align: bottom;
+    font-size: 200%;
+    padding-bottom: 10px;
+
+}
+.p2 {
+    margin-left: 190px;
+}
+.p3 {
+    margin-left: 280px;
+}
+img{
+    width: 240px;
+}
+  

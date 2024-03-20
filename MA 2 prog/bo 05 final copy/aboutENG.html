@@ -1,0 +1,76 @@
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NXT Museum</title>
+        <script type="module" defer src="app.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body>
+        <section class="Sub-header">
+            <nav>
+                <a href="index.html"><img src="image/download-removebg-preview.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <ul>
+                        <li><a href="indexENG.html">HOME</a></li>
+                        <li><a href="aboutENG.html">ABOUT</a></li>
+                        <li><a href="contactENG.html">CONTACT</a></li>
+                        <li><a href="blogENG.html">Artworks</a></li>
+                        <li><a href="about.html">EN|NL</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <h1>About us</h1>
+        </section>
+
+        <section class="about-us2">
+            <div class="row">
+                <div class="about-col">
+                    <h1>About NXT Museum</h1>
+                    <p>Founded in 2010, the NXT Museum has grown from a modest gallery to a boundary-pushing institution for experimental art. It integrates traditional and modern forms, encourages interaction, and continues to evolve as a global hub for avant-garde art, a unique creative meeting place.</p>
+                    <a href="" class="hero-btn red-btn">Tickets</a>
+                </div>
+                <div class="about-col">
+                    <section class="popup">
+                        <!-- Trigger/Open The Modal -->
+                        <button id="myBtn" class="mybtn2"><img class="foto" src="image/pic3.jpg"></button>
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p class="textin"><i class="fas fa-percent"></i>29 off with the code -Saad is the best- <i class="fas fa-wand-magic"></i></p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Follow us on every media platform</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>Created by Saad and Damian <i class="fa-solid fa-fire"></i></p>
+        </section>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
